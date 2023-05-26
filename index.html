@@ -5,8 +5,245 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- tailwid add -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital@1&family=Manrope:wght@700&family=Montserrat:ital,wght@0,500;0,700;1,500&family=Poppins:wght@400;500&display=swap');
+      </style>
+
+<link rel="stylesheet" href="style.css">
+
+
 </head>
-<body>
+<body class="bg-zinc-950">
     
+    <!-- Header part start -->
+
+    <header>
+<section class="bg-slate-950 grid grid-cols-2 sm:grid-cols-3">
+
+    <div class="object-contain"> <img src="select-best-five-main/images/messi-header.jpg" alt=""></div>
+
+    <div class="sm:col-span-2 flex flex-col items-center justify-center">
+     <h1 class="text-7xl font-bold text-rose-600 text-center my-3" id="header-title">Select Your Best Five</h1>
+     <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non, beatae porro ex maxime itaque. Cumque, nobis. Sed, necessitatibus dicta.  </p>
+    </div>
+
+
+    <div></div>
+
+</section>
+
+    </header>
+
+    <!-- Header part end -->
+
+
+
+    <!-- main-part-start -->
+
+    <main class="container mx-auto my-36 ">
+
+        <section class="grid  grid-cols-2 sm:grid-cols-4">
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800 ">
+
+                <div class="">
+                    <img src="select-best-five-main/images/messi-3.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1 font-semibold" id="messi-name">Lionel Messi</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button  class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2"  id="messi-btn">Select</button>
+                </div>
+
+            </div>
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/neymar-3.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1 font-semibold" id="neymar-name">Neymar JR</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold m-2" id="neymar-btn">Select</button>
+                </div>
+
+            </div>
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/mbappe-3.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="mbappe-name">Kylian Mbappe</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2" id="mbappe-btn">Select</button>
+                </div>
+
+            </div>
+
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800 bg-black pt-5">
+
+              <h1 class="text-white text-3xl text-center font-semibold py-8">Select - V</h1>
+
+              <ol id="five-player-list">
+                <li class="text-slate-200 pl-10 text-xl text-medium"></li>
+                <li class="text-slate-200 pl-10 text-xl text-medium"></li>
+                <li class="text-slate-200 pl-10 text-xl text-medium"></li>
+                <li class="text-slate-200 pl-10 text-xl text-medium"></li>
+                <li class="text-slate-200 pl-10 text-xl text-medium"></li>
+              </ol>
+
+            </div>
+           
+        </section>
+
+
+
+        <section class="grid grid-cols-2 grid-cols-4 mt-10">
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/ronaldo-3.webp" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="ronaldo-name">Ronaldo</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2" id="ronaldo-btn">Select</button>
+                </div>
+
+            </div>
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/haaland-2.webp" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="haaland-name">Haaland</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2" id="haaland-btn">Select</button>
+                </div>
+
+            </div>
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/grealish-2.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="grealish-name">Grealish</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2" id="grealish-btn">Select</button>
+                </div>
+
+            </div>
+
+
+            <div class="w-64 drop-shadow-2xl border-2 border-gray-800 bg-black flex flex-col justify-center items-center gap-4 p-5">
+
+              <h1 class="text-white text-3xl text-center font-semibold">Budget</h1>
+
+              <p class="text-slate-200 my- flex justify-between items-center"><span>Per Player</span><span class="bg-black text-slate-200 border-2 border-gray-600 ml-5 px-5 py-2" id="per-player-salary">1000</span></p>
+
+              <button class="bg-blue-900 text-white font-semibold px-20 py-1" id="calc-btn"> Calculate</button>
+
+              <p class="text-white flex justify-between items-center"><span>Player Expenses </span> <span class="text-rose-600 ml-5 text-xl font-bold" id="player-expense">00</span></p>
+
+              <p class="text-slate-200 my- flex justify-between items-center"><span> Manager</span><span class="bg-black text-slate-200 border-2 border-gray-600 font-semibold ml-5 px-5 py-2" id="manager-salary">2000</span></p>
+
+              <p class="text-slate-200 my- flex justify-between items-center"> <span>Coach</span> <span class="bg-black text-slate-200 border-2 border-gray-600 font-semibold ml-8 px-5 py-2" id="coach-salary">4000</span></p>
+
+              <button class="bg-blue-900 text-white font-semibold px-12 py-1" id="calc-total-btn"> Calculate Total</button>
+
+              <p class="flex justify-between items-center"> <span class="text-slate-200 mr-10">Total</span>  <span class="text-rose-600 text-xl font-bold" id="total-value">00</span></p>
+
+              
+            </div>
+           
+        </section>
+
+
+        <section class="grid grid-cols-2 grid-cols-4 -my-4">
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/pedri-3.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="pedri-name">Pedri</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2" id="pedri-btn">Select</button>
+                </div>
+
+            </div>
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/vini-2.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="vini-name">Vinicius</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold  m-2" id="vini-btn">Select</button>
+                </div>
+
+            </div>
+
+            <div class="w-64 h-96 drop-shadow-2xl border-2 border-gray-800">
+
+                <div class="">
+                    <img src="select-best-five-main/images/lewa.jpg" class="w-64 h-52" alt="">
+                </div>
+    
+                <div class="bg-black flex flex-col justify-center items-center h-44">
+                    <h1 class="text-2xl text-white m-1  font-semibold" id="lewa-name">Lewandowski</h1>
+                    <p class="text-slate-300 m-1"> <span class="text-gray-500">50 goal</span>  <span class="text-gray-500">40 assist</span> </p>
+    
+                    <button class="bg-blue-900 px-20 py-2 text-white font-semibold m-2" id="lewa-btn">Select</button>
+                </div>
+
+            </div>
+
+
+     
+           
+        </section>
+
+      
+
+
+    </main>
+
+    <!-- main-part-end -->
+
+<script src="js/first.js"></script>
 </body>
 </html>
